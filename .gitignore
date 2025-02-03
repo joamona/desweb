@@ -1,0 +1,31 @@
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
+
+#development
+.env.prod
+pgadmin4
+pgadmin4_prod
+.venv
+venv
+.env.prod
+geoserver_data
+geoserver-data
+postgis-data
+postgis_data
+
+#django
+migrations/*
+**/migrations/*
+*.log
+*.pot
+*.pyc
+__pycache__
+
+# Exceptuar los archivos __init__.py
+!migrations/__init__.py
+!**/migrations/__init__.py
